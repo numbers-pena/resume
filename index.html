@@ -46,15 +46,14 @@
       object-fit: cover;
       border-radius: 50%;
     }
-    }
-    .section-heading.lined::before, .section-heading.lined::after {
+    .section-heading.lined::before{margin-bottom:8px}
+    .section-heading.lined::after{margin-top:8px}
+    
+    .section-heading.lined::before,.section-heading.lined::after{
       content: "";
       display: block;
       height: 2px;
       background: #000;
-      color: #0b57b7;
-      text-transform:uppercase;
-      margin:6px 0
     }
     .contact p {
       font-size: 14px;
@@ -72,6 +71,113 @@
     ul li {
       margin: 5px 0;
       font-size: 14px;
+    }
+    .experience-item {
+      margin-bottom: 20px;
+    }
+    .experience-item h4 {
+      margin: 0;
+      font-size: 15px;
+    }
+    .experience-item p {
+      margin: 3px 0;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .achievements p {
+      margin: 4px 0;
+    }
+    .box4overall {
+      width: 750px;
+      height: 945px;
+      margin-left: 350px;
+      display: block;
+      border: 2px solid black;
+    }
+    .grayishbox {
+      background-color: #ecebef;
+      padding: 10px;
+    }
+    .topbox {
+      height: 12px;
+      background: #0b57b7;
+      margin-left: 40px;
+      width: 140px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box4overall">
+    <div class="topbox" aria-hidden="true"></div>
+  <div class="container">
+    <div class="left">
+      <h1>
+        MICHAELLA <span>PEÑA</span>
+      </h1>
+      <div class="profile">
+        <p>
+          Passionate and dedicated high school teacher with expertise in computer, arts, and science. Focused on empowering students to excel academically and fostering critical thinking skills in a supportive and engaging classroom environment.
+        </p>
+      </div>
+      <h2 class="section-heading lined">Contact</h2>
+      <div class="contact">
+        <p>📞 123-456-7890</p>
+        <p>✉️ hello@reallygreatsite.com</p>
+        <p>🌐 reallygreatsite.com</p>
+      </div>
+      <h2 class="section-heading lined">Education</h2>
+      <div class="education">
+        <p><b>Senior High School - ICT 1: Programming</b><br>Unida Christian Colleges</p>
+        <p><b>Junior High School</b><br>General Licerio Topacio National High School — Graduated 2025</p>
+        <p><b>Bachelor of Science in Architecture</b><br>University of the Philippines Diliman — Graduated 2032</p>
+      </div>
+
+      <h2 class="section-heading lined">Skills</h2>
+      <div class="skills">
+        <p><b>Professional</b></p>
+        <ul>
+          <li>▪ Conceptual sketching and model making</li>
+          <li>▪ Strong client communication and teamwork</li>
+          <li>▪ Sustainable</li>
+          <li>▪ Fluency in English</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="photo">
+        <img src="https://via.placeholder.com/180" alt="Michaella Peña">
+      </div>
+      <div class="grayishbox">
+      <h2 class="section-heading lined">Experience</h2>
+      <div class="experience">
+        <div class="experience-item">
+          <h4>Architect Intern</h4>
+          <p><i>VisionHaus Design Co. | Summer 2031</i></p>
+          <p>▪ Applied principles learned from the BS Architecture program, including design development, CAD drafting, and site analysis.</p>
+          <p>▪ Assisted in preparing floor plans, 3D models, and client presentations.</p>
+        </div>
+        <div class="experience-item">
+          <h4>Junior Architect</h4>
+          <p><i>CityBuild Group | 2033–2037</i></p>
+          <p>▪ Participated in client meetings to present architectural concepts and revisions.</p>
+          <p>▪ Created working drawings, 3D models (SketchUp, Revit), and coordinated with engineers and contractors on-site.</p>
+        </div>
+      </div>
+
+      <h2 class="section-heading lined">Achievements</h2>
+      <div class="achievements">
+        <p>▪ 1st Runner-up, Poster-Making Contest – General Licerio Topacio NHS (2024)</p>
+        <p>▪ 2nd Runner-up, Poster-Making Contest – Imus National HS (2026)</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="header"></div>
+  </div>
+  <!-- hi sir wag ninyo na po I-judge akin hahaha-->
+</body>
+</html>      font-size: 14px;
     }
     .experience-item {
       margin-bottom: 20px;
